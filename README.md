@@ -176,109 +176,83 @@ This supplemental index captures the broader literature set requested by contrib
 ### 1. Foundations and Surveys
 
 - Out of One, Many: Using Language Models to Simulate Human Samples. Political Analysis, 2023. https://doi.org/10.1017/pan.2023.2.
-- From Persona to Personalization: A Survey on Role-Playing Language Agents. arXiv, 2024.04.
-- Can Large Language Models Transform Computational Social Science?. Computational Linguistics, 2024.03.
-- Exploring the Frontiers of LLMs in Psychological Applications: A Comprehensive Review. arXiv, 2024.01.
-- Towards a Psychological Generalist AI: A Survey of Current Applications of Large Language Models and Future Prospects. arXiv, 2023.12.
-- Using Large Language Models in Psychology. Nature Reviews Psychology, 2023.10.
-- Emergent Abilities of Large Language Models. arXiv, 2022.06.
+- Can Large Language Models Transform Computational Social Science?. Computational Linguistics, 2024. https://doi.org/10.1162/coli_a_00502.
+- Exploring the Frontiers of LLMs in Psychological Applications: A Comprehensive Review. Artificial Intelligence Review, 2025. https://doi.org/10.1007/s10462-025-11297-5.
+- Using Large Language Models in Psychology. Nature Reviews Psychology, 2023. https://doi.org/10.1038/s44159-023-00241-5.
+- Emergent Abilities of Large Language Models. arXiv, 2022. https://doi.org/10.48550/arXiv.2206.07682.
 
 ### 2. LLM for Human Behavior Simulation
 
 - Generative Agents: Interactive Simulacra of Human Behavior. arXiv:2304.03442. Preprint, arXiv, August 6, 2023. https://doi.org/10.48550/arXiv.2304.03442.
 - Social Simulacra: Creating Populated Prototypes for Social Computing Systems. arXiv:2208.04024. Preprint, arXiv, August 8, 2022. https://doi.org/10.48550/arXiv.2208.04024.
-- Lost in Simulation: LLM-Simulated Users are Unreliable Proxies for Human Users in Agentic Evaluations. arXiv, 2026.01.
-- Consistently Simulating Human Personas with Multi-Turn Reinforcement Learning. NeurIPS, 2025. [Code].
-- A Mega-Study of Digital Twins Reveals Strengths, Weaknesses and Opportunities for Further Improvement. arXiv, 2025.09.
-- How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective. arXiv, 2025.02. [Code].
-- Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations. EMNLP, 2025. [Code].
-- Generative Agent Simulations of 1,000 People. arXiv, 2024.11.
-- Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers. arXiv, 2024.09. [Code].
-- Language Models Show Stable Value Orientations Across Diverse Role-Plays. arXiv, 2024.08.
-- PsychoGAT: A Novel Psychological Measurement Paradigm through Interactive Fiction Games with LLM Agents. ACL, 2024.
-- Limited Ability of LLMs to Simulate Human Psychological Behaviours: A Psychometric Analysis. arXiv, 2024.05.
-- Is Cognition and Action Consistent or Not: Investigating Large Language Model's Personality. arXiv, 2024.02.
-- LLM Agents for Psychology: A Study on Gamified Assessments. arXiv, 2024.02.
-- Quantifying the Persona Effect in LLM Simulations. arXiv, 2024.02. [Code].
 - The Empty Chair: Using LLMs to Raise Missing Perspectives in Policy Deliberations. arXiv:2503.13812. Version 2. Preprint, arXiv, November 14, 2025. https://doi.org/10.48550/arXiv.2503.13812.
-- "Kelly Is a Warm Person, Joseph Is a Role Model": Gender Biases in LLM-Generated Reference Letters. arXiv, 2023.10. [Code].
-- Personality Traits in Large Language Models. arXiv, 2023.07. [Code].
-- Role Play with Large Language Models. Nature, 2023.11.
-- The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective. arXiv, 2023.12.
-- Meet Your Favorite Character: Open-Domain Chatbot Mimicking Fictional Characters with Only a Few Utterances. arXiv, 2022.04.
+- A Mega-Study of Digital Twins Reveals Strengths, Weaknesses and Opportunities for Further Improvement. SSRN, 2025. https://doi.org/10.2139/ssrn.5518418.
+- How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective. SSRN, 2025. https://doi.org/10.2139/ssrn.6131846.
+- Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations. EMNLP, 2025. https://doi.org/10.18653/v1/2025.emnlp-main.1562.
+- Generative Agent Simulations of 1,000 People. arXiv, 2024. https://doi.org/10.48550/arXiv.2411.10109.
+- PsychoGAT: A Novel Psychological Measurement Paradigm through Interactive Fiction Games with LLM Agents. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.779.
+- Quantifying the Persona Effect in LLM Simulations. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.554.
+- "Kelly Is a Warm Person, Joseph Is a Role Model": Gender Biases in LLM-Generated Reference Letters. Findings of EMNLP, 2023. https://doi.org/10.18653/v1/2023.findings-emnlp.243.
+- Personality Traits in Large Language Models. Research Square preprint, 2023. https://doi.org/10.21203/rs.3.rs-3296728/v1.
+- Role Play with Large Language Models. Nature, 2023. https://doi.org/10.1038/s41586-023-06647-8.
+- The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective. SSRN, 2023. https://doi.org/10.2139/ssrn.4650172.
+- Meet Your Favorite Character: Open-Domain Chatbot Mimicking Fictional Characters with Only a Few Utterances. NAACL, 2022. https://doi.org/10.18653/v1/2022.naacl-main.377.
 
 ### 3. LLM Agents
 
 - Towards an LLM-Powered Social Digital Twinning Platform. arXiv:2505.10681. Preprint, arXiv, May 15, 2025. https://doi.org/10.48550/arXiv.2505.10681.
-- An LLM-based Simulation Framework for Embodied Conversational Agents in Psychological Counseling. arXiv, 2024.10. [Code].
-- MegaAgent: A Practical Framework for Autonomous Cooperation in Large-Scale LLM Agent Systems. arXiv, 2024.08.
-- Hello Again! LLM-powered Personalized Agent for Long-term Dialogue. arXiv, 2024.06. [Code].
-- Towards Lifelong Learning of Large Language Models: A Survey. arXiv, 2024.06. [Code].
-- Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents. arXiv, 2024.05.
-- MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-Oriented Coordination via Collaborative Generative Agents. arXiv, 2023.10.
-- Agents: An Open-Source Framework for Autonomous Language Agents. arXiv, 2023.09. [Code].
-- AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework. arXiv, 2023.08. [Code].
-- MetaGPT: Meta Programming for Multi-Agent Collaborative Framework. arXiv, 2023.08. [Code].
-- AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents. arXiv, 2023.
+- An LLM-based Simulation Framework for Embodied Conversational Agents in Psychological Counseling. AAAI, 2026. https://doi.org/10.1609/aaai.v40i35.40221.
+- Hello Again! LLM-powered Personalized Agent for Long-term Dialogue. NAACL, 2025. https://doi.org/10.18653/v1/2025.naacl-long.272.
+- Towards Lifelong Learning of Large Language Models: A Survey. ACM Computing Surveys, 2025. https://doi.org/10.1145/3716629.
 
 ### 4. LLM Bias and Value
 
-- Gender Bias of LLM in Economics: An Existentialism Perspective. arXiv, 2024.10.
-- Measuring Human and AI Values based on Generative Psychometrics with Large Language Models. arXiv, 2024.09. [Code].
-- United in Diversity? Contextual Biases in LLM-Based Predictions of the 2024 European Parliament Elections. arXiv, 2024.08.
-- Representation Bias in Political Sample Simulations with Large Language Models. arXiv, 2024.07.
-- New Job, New Gender? Measuring the Social Bias in Image Generation Models. MM, 2024.
-- Whose Opinions Do Language Models Reflect?. ICML, 2023.
-- Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models. arXiv, 2023.10.
-- Probing Explicit and Implicit Gender Bias through LLM Conditional Text Generation. arXiv, 2023.11.
-- Evaluating the Moral Beliefs Encoded in LLMs. NeurIPS, 2023. [Code].
-- When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment. NeurIPS, 2022. [Code].
+- Measuring Human and AI Values based on Generative Psychometrics with Large Language Models. AAAI, 2025. https://doi.org/10.1609/aaai.v39i25.34839.
+- Representation Bias in Political Sample Simulations with Large Language Models. Web Conference, 2025. https://doi.org/10.1145/3701716.3715591.
+- New Job, New Gender? Measuring the Social Bias in Image Generation Models. ACM MM, 2024. https://doi.org/10.1145/3664647.3681433.
+- Whose Opinions Do Language Models Reflect?. ICML, 2023. https://proceedings.mlr.press/v202/santurkar23a.html.
+- Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.345.
+- Evaluating the Moral Beliefs Encoded in LLMs. NeurIPS, 2023. https://doi.org/10.52202/075280-2256.
+- When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment. NeurIPS, 2022. https://doi.org/10.52202/068431-2063.
 
 ### 5. LLM Simulation Applications
 
 #### 5.1 Economics and Finance
 
-- Augmenting Survey Data with Generative AI: An Application to Economic Research. SSRN, 2026.
-- AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions. arXiv, 2026.02. [Code].
-- Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?. ACM EC, 2024.
-- Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method. Findings of ACL, 2024.
-- CryptoTrade: A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading. arXiv, 2024.06. [Code].
-- Simulating Financial Market via Large Language Model Based Agents. arXiv, 2024.06.
-- EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities. ACL, 2024. [Code].
-- Designing Heterogeneous LLM Agents for Financial Sentiment Analysis. ACM TMIS, 2024.08.
+- Augmenting Survey Data with Generative AI: An Application to Economic Research. SSRN, 2026. https://doi.org/10.2139/ssrn.6343598.
+- Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?. ACM EC, 2024. https://doi.org/10.1145/3670865.3673513.
+- Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method. Findings of ACL, 2024. https://doi.org/10.18653/v1/2024.findings-acl.213.
+- CryptoTrade: A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading. EMNLP, 2024. https://doi.org/10.18653/v1/2024.emnlp-main.63.
+- EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.829.
+- Designing Heterogeneous LLM Agents for Financial Sentiment Analysis. ACM Transactions on Management Information Systems, 2024. https://doi.org/10.1145/3688399.
 
 #### 5.2 Politics and Society
 
-- Auditing Political Exposure Bias: Algorithmic Amplification on Twitter/X Approaching the 2024 US Presidential Election. arXiv, 2024.11.
-- GermanPartiesQA: Benchmarking Commercial Large Language Models for Political Bias and Sycophancy. arXiv, 2024.07.
-- Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior and Bipartisanship. arXiv, 2024.06.
-- Trump, Twitter, and Truth Social: How Trump Used Both Mainstream and Alt-Tech Social Media to Drive News Media Attention. Journal of Information Technology & Politics, 2024.03.
-- War and Peace (WarAgent): Large Language Model-Based Multi-Agent Simulation of World Wars. arXiv, 2023.11. [Code].
+- Auditing Political Exposure Bias: Algorithmic Amplification on Twitter/X Approaching the 2024 US Presidential Election. SSRN, 2024. https://doi.org/10.2139/ssrn.5018879.
+- GermanPartiesQA: Benchmarking Commercial Large Language Models for Political Bias and Sycophancy. AIES, 2025. https://doi.org/10.1609/aies.v8i1.36552.
+- Trump, Twitter, and Truth Social: How Trump Used Both Mainstream and Alt-Tech Social Media to Drive News Media Attention. Journal of Information Technology & Politics, 2024. https://doi.org/10.1080/19331681.2024.2328156.
 
 #### 5.3 Education
 
-- Large Language Model as an Assignment Evaluator: Insights, Feedback, and Challenges in a 1000+ Student Course. arXiv, 2024.07.
-- Simulating Classroom Education with LLM-Empowered Agents. arXiv, 2024.06.
-- Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation. arXiv, 2024.05.
-- MathVC: An LLM-Simulated Multi-Character Virtual Classroom for Mathematics Education. arXiv, 2024.04.
-- PhysicsAssistant: An LLM-Powered Interactive Learning Robot for Physics Lab Investigations. arXiv, 2024.03.
+- Large Language Model as an Assignment Evaluator: Insights, Feedback, and Challenges in a 1000+ Student Course. EMNLP, 2024. https://doi.org/10.18653/v1/2024.emnlp-main.146.
+- Simulating Classroom Education with LLM-Empowered Agents. NAACL, 2025. https://doi.org/10.18653/v1/2025.naacl-long.520.
+- Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation. Learning @ Scale, 2024. https://doi.org/10.1145/3657604.3662031.
+- PhysicsAssistant: An LLM-Powered Interactive Learning Robot for Physics Lab Investigations. RO-MAN, 2024. https://doi.org/10.1109/ro-man60168.2024.10731312.
 
 #### 5.4 Recommendation Systems and User Simulation
 
-- Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation. arXiv, 2026.04.
-- PUB: An LLM-Enhanced Personality-Driven User Behaviour Simulator for Recommender System Evaluation. SIGIR, 2025.
-- LLM as User Simulator: Towards Training News Recommender without Real User Interactions. SIGIR, 2025.
-- Agentic Feedback Loop Modeling Improves Recommendation and User Simulation. SIGIR, 2025. [Code].
-- SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation. ACL Industry, 2025.
-- A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems. WWW, 2025.
-- RecUserSim: A Realistic and Diverse User Simulator for Evaluating Conversational Recommender Systems. WWW Companion, 2025.
-- LLM-Powered User Simulator for Recommender System. AAAI, 2025.
-- RecAgent: User Behavior Simulation with Large Language Model-based Agents. ACM TOIS, 2024. [Code].
-- BASES: Large-scale Web Search User Simulation with Large Language Model based Agents. Findings of EMNLP, 2024.
-- Reliable LLM-based User Simulator for Task-Oriented Dialogue Systems. SCI-CHAT Workshop, 2024.
-- A Survey on Large Language Models for Recommendation. arXiv, 2024.08. [Code].
-- LLM-Rec: Personalized Recommendation via Prompting Large Language Models. arXiv, 2024.07.
-- Generating Personalized Recommendations via Large Language Models (LLMs). Technical Disclosure Commons, 2022.12.
+- PUB: An LLM-Enhanced Personality-Driven User Behaviour Simulator for Recommender System Evaluation. SIGIR, 2025. https://doi.org/10.1145/3726302.3730238.
+- LLM as User Simulator: Towards Training News Recommender without Real User Interactions. SIGIR, 2025. https://doi.org/10.1145/3726302.3730224.
+- Agentic Feedback Loop Modeling Improves Recommendation and User Simulation. SIGIR, 2025. https://doi.org/10.1145/3726302.3729893.
+- SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation. ACL Industry, 2025. https://doi.org/10.18653/v1/2025.acl-industry.5.
+- A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems. WWW, 2025. https://doi.org/10.1145/3696410.3714858.
+- RecUserSim: A Realistic and Diverse User Simulator for Evaluating Conversational Recommender Systems. WWW Companion, 2025. https://doi.org/10.1145/3701716.3715258.
+- LLM-Powered User Simulator for Recommender System. AAAI, 2025. https://doi.org/10.1609/aaai.v39i12.33456.
+- RecAgent: User Behavior Simulation with Large Language Model-based Agents. ACM Transactions on Information Systems, 2024. https://doi.org/10.1145/3708985.
+- BASES: Large-scale Web Search User Simulation with Large Language Model based Agents. Findings of EMNLP, 2024. https://doi.org/10.18653/v1/2024.findings-emnlp.50.
+- Reliable LLM-based User Simulator for Task-Oriented Dialogue Systems. SCI-CHAT Workshop, 2024. https://doi.org/10.18653/v1/2024.scichat-1.3.
+- A Survey on Large Language Models for Recommendation. World Wide Web, 2024. https://doi.org/10.1007/s11280-024-01291-2.
+- LLM-Rec: Personalized Recommendation via Prompting Large Language Models. Findings of NAACL, 2024. https://doi.org/10.18653/v1/2024.findings-naacl.39.
 
 #### 5.5 Customer and Consumer Simulation
 
@@ -287,96 +261,27 @@ This supplemental index captures the broader literature set requested by contrib
 - Asadi, Amir Reza, and Jess Kropczynski. Qualitative Data-Driven Personas: Designing an Interactive System for Creating AI Personas. Proceedings of the 2024 The 6th World Symposium on Software Engineering (WSSE) (New York, NY, USA), WSSE '24, December 8, 2024, 232–36. https://doi.org/10.1145/3698062.3698096.
 - Deep, Paluck, Monica Bharadhidasan, and A. Baki Kocaballi. 'She Was Useful, but a Bit Too Optimistic': Augmenting Design with Interactive Virtual Personas. International Journal of Human-Computer Studies 205 (November 2025): 103646. https://doi.org/10.1016/j.ijhcs.2025.103646.
 - Towards an LLM-Powered Social Digital Twinning Platform. arXiv:2505.10681. Preprint, arXiv, May 15, 2025. https://doi.org/10.48550/arXiv.2505.10681.
-- ShopSimulator: Evaluating and Exploring RL-Driven LLM Agent for Shopping Assistants. arXiv, 2026.01.
-- Customer-R1: Personalized Simulation of Human Behaviors via RL-based LLM Agent in Online Shopping. arXiv, 2025.10.
-- See, Think, Act: Online Shopper Behavior Simulation with VLM Agents. NeurIPS, 2025.
-- Shop-R1: Rewarding LLMs to Simulate Human Behavior in Online Shopping via Reinforcement Learning. NeurIPS SEA Workshop, 2025.
-- LLMs Reproduce Human Purchase Intent via Semantic Similarity Elicitation of Likert Ratings. arXiv, 2025.10. [Code].
-- LLM Agent Meets Agentic AI: Can LLM Agents Simulate Customers to Evaluate Agentic-AI-based Shopping Assistants?. arXiv, 2025.09.
-- What Is Your AI Agent Buying? Evaluation, Biases, Model Dependence, and Emerging Implications for Agentic E-Commerce. arXiv, 2025.08.
-- ShoppingBench: A Real-World Intent-Grounded Shopping Benchmark for LLM-based Agents. arXiv, 2025.08.
-- LLM-Based Multi-Agent System for Simulating and Analyzing Marketing and Consumer Behavior. IEEE ICEBE, 2025.
-- Predicting Behaviors with Large Language Model (LLM)-Powered Digital Twins of Consumers. MSI Working Paper, 2025.
-- AI-Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators. Journal of Marketing, 2025.
-- Large Language Models for Market Research: A Data-augmentation Approach. arXiv, 2024.12.
-- Can Large Language Models Capture Human Preferences?. Marketing Science, 2024.
-- Can LLM Agents Simulate Multi-Turn Human Behavior? Evidence from Real Online Customer Behavior Data. arXiv, 2025.03.
-- Using LLMs for Market Research. Harvard Business School Working Paper, 2025.
-- Challenges and Opportunities of LLM-Based Synthetic Personae and Data in HCI. CHI EA, 2024.
 - LLM Voting: Human Choices and AI Collective Decision-Making. Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society (San Jose, California, USA), AIES '24, February 7, 2025, 1696–708. https://dl.acm.org/doi/10.5555/3716662.3716809.
 - An Electoral Approach to Diversify LLM-Based Multi-Agent Collective Decision-Making. arXiv:2410.15168. Preprint, arXiv, October 19, 2024. https://doi.org/10.48550/arXiv.2410.15168.
 - Understanding Nonlinear Collaboration between Human and AI Agents: A Co-Design Framework for Creative Design. Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (New York, NY, USA), CHI '24, May 11, 2024, 1–16. https://doi.org/10.1145/3613904.3642812.
-
-#### 5.6 Others
-
-- Improve Temporal Awareness of LLMs for Sequential Recommendation. arXiv, 2024.05.
-- How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments. arXiv, 2024.03. [Code].
-- Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf. arXiv, 2023.09.
-- The SocialAI School: Insights from Developmental Psychology towards Artificial Socio-Cultural Agents. arXiv, 2023.07. [Code].
+- AI-Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators. Journal of Marketing, 2025. https://doi.org/10.1177/00222429241276529.
+- Using LLMs for Market Research. Harvard Business School Marketing Unit Working Paper, 2023. https://doi.org/10.2139/ssrn.4395751.
 
 ### 6. LLM Evaluation
 
-- Benchmarking LLMs' Judgments with No Gold Standard. arXiv, 2024.11.
-- Cognitive Overload Attack: Prompt Injection for Long Context. arXiv, 2024.10.
-- Moral Alignment for LLM Agents. arXiv, 2024.10.
-- Revealing the Challenge of Detecting Character Knowledge Errors in LLM Role-Playing. arXiv, 2024.09. [Code].
-- InCharacter: Evaluating Personality Fidelity in Role-Playing Agents through Psychological Interviews. ACL, 2024. [Code].
-- Regurgitative Training: The Value of Real Data in Training Large Language Models. arXiv, 2024.07.
-- Evaluating the Performance of Large Language Models via Debates. arXiv, 2024.06.
-- Auto-Arena: Automating LLM Evaluations with Agent Peer Battles and Committee Discussions. arXiv, 2024.05. [Code].
-- AgentClinic: A Multimodal Agent Benchmark to Evaluate AI in Simulated Clinical Environments. arXiv, 2024.05. [Code].
-- How Reliable is Your Simulator? Analysis on the Limitations of Current LLM-based User Simulators for Conversational Recommendation. arXiv, 2024.03. [Code].
-- Humans or LLMs as the Judge? A Study on Judgement Bias. arXiv, 2024.02. [Code].
-- LLM-Deliberation: Evaluating LLMs with Interactive Multi-Agent Negotiation Games. CoRR, 2023.09.
-- AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback. NeurIPS, 2023. [Code].
-- AgentSims: An Open-Source Sandbox for Large Language Model Evaluation. arXiv, 2023.08. [Code].
+- LLMs Instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks. ACL, 2025. https://doi.org/10.18653/v1/2025.acl-short.20.
+- LLMs-as-Judges: A Comprehensive Survey on LLM-Based Evaluation Methods. arXiv, 2024. https://doi.org/10.48550/arXiv.2412.05579.
 
 ### 7. Cognition and Psychology
 
-- Grounded Cognition. Annual Review of Psychology, 2008.
-- Language and Simulation in Conceptual Processing. Symbols, Embodiment, and Meaning, 2008.
-- Dual Coding Theory: Retrospect and Current Status. Canadian Journal of Psychology, 1991.
-- How and Why Thoughts Change: Foundations of Cognitive Psychotherapy. Oxford University Press, 2015.
-- Emotion and Social Theory: Corporeal Reflections on the (Ir)rational. Sage, 2000.
-- Neural Dynamics of Decision Making Under Risk: Affective Balance and Cognitive-Emotional Interactions. Psychological Review, 1987.
-- A Cognition-Based View of Decision Processes in Complex Social-Ecological Systems. Ecology and Society, 2007.06.
-- Information, Incentives, and Proenvironmental Consumer Behavior. Journal of Consumer Policy, 1999.
-- Human Incentives. The Greek Economy and the Crisis, 2012.
+- Grounded Cognition. Annual Review of Psychology, 2008. https://doi.org/10.1146/annurev.psych.59.103006.093639.
+- Neural Dynamics of Decision Making Under Risk: Affective Balance and Cognitive-Emotional Interactions. Psychological Review, 1987. https://doi.org/10.1037/0033-295X.94.3.395.
+- A Cognition-Based View of Decision Processes in Complex Social-Ecological Systems. Ecology and Society, 2007. https://doi.org/10.5751/ES-02103-120127.
+- Information, Incentives, and Proenvironmental Consumer Behavior. Journal of Consumer Policy, 1999. https://doi.org/10.1023/A:1006211709570.
 
 ### 8. Social Simulation
 
-- AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society. arXiv, 2025.02. [Code].
-- OASIS: Open Agent Social Interaction Simulations with One Million Agents. arXiv, 2024.11. [Code].
-- Multi-Agents Are Social Groups: Investigating Social Influence of Multiple Agents in Human-Agent Interactions. CSCW, 2025.
-- Unpacking a Black Box: A Conceptual Anatomy Framework for Agent-Based Social Simulation Models. JASSS, 2023.
-- Simulation: A Tool for System Design and Analysis. GPH-IJSSHR, 2023.
-- Analysing the Combined Health, Social and Economic Impacts of the Coronavirus Pandemic Using Agent-Based Social Simulation. Minds and Machines, 2020.06.
-- The Termination Risks of Simulation Science. Erkenntnis, 2020.
-- Simulating Societies: The Computer Simulation of Social Phenomena. 2018.
-- Computer Simulations of Space Societies. 2018.
-- Can Robots Be Lawyers? Computers, Lawyers, and the Practice of Law. Georgetown Journal of Legal Ethics, 2017.
-- Ethics in Planning. 2017.
-- Social Self-Organization: Agent-Based Simulations and Experiments to Study Emergent Social Behavior. 2012.
-- Analyzing and Modeling Real-World Phenomena with Complex Networks: A Survey of Applications. Advances in Physics, 2011.03.
-- A Simulation System of Social Economic. Computer and Information Science, 2011.07.
-- A Methodology for Complex Social Simulations. JASSS, 2010.
-- Agent-Based Modeling: A New Approach for Theory Building in Social Psychology. Personality and Social Psychology Review, 2007.
-- Simulated Experiments: Methodology for a Virtual World. Philosophy of Science, 2003.01.
-- Understanding Climate Policy Using Participatory Agent-Based Social Simulation. MABS, 2000.
-- System Dynamics: Simulation for Policy Analysis from a Feedback Perspective. Qualitative Simulation Modeling and Analysis, 1991.
-- Policy Exploration through Microanalytic Simulation. 1976.
+- Social Simulacra: Creating Populated Prototypes for Social Computing Systems. UIST, 2022. https://doi.org/10.1145/3526113.3545616.
+- Agent-Based Modeling: A New Approach for Theory Building in Social Psychology. Personality and Social Psychology Review, 2007. https://doi.org/10.1177/1088868306294789.
+- Simulated Experiments: Methodology for a Virtual World. Philosophy of Science, 2003. https://doi.org/10.1086/367872.
 
-### 9. Conference
-
-- The Multi-hub Academic Conference: Global, Inclusive, Culturally Diverse, Creative, Sustainable. Frontiers in Research Metrics and Analytics, 2021.07.
-- Ten Simple Rules to Host an Inclusive Conference. PLOS Computational Biology, 2022.07.
-- Transitioning to Sustainable Academic Conferences Needs More Experimentation and Reflection. Global Sustainability, 2023.09.
-- Creative Destruction in Academia: A Time to Reimagine Practices in Alignment with Sustainability Values. Sustainability Science, 2023.07.
-
-### 10. Others
-
-- Can Generative AI Improve Social Science?. PNAS, 2024.03.
-- Do LLMs Exhibit Human-like Response Biases? A Case Study in Survey Design. TACL, 2024. [Code].
-- Employing Large Language Models in Survey Research. NLP Journal, 2023.09.
-- Sequential Modeling Enables Scalable Learning for Large Vision Models. CVPR, 2024. [Code].
-- "You Are Not the Expert Here": How Large Language Models Impact Help-Seeking in Online Communities. CHI, 2024.

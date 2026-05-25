@@ -1,287 +1,236 @@
 # LLM-Powered Human Digital Twins
 
-A curated, community-maintained bibliography of research on LLM-based and multi-agent human digital twins, with special focus on market research, consumer modeling, organizational decision making, and decision support.
+A curated, community-maintained bibliography of research on LLM-powered and multi-agent human digital twins, with special focus on market research, consumer modeling, organizational decision making, and decision support.
 
-This repository is a public contribution project. The list is intentionally selective rather than exhaustive: it prioritizes papers that directly model humans, consumers, workers, teams, or organizations with LLMs or multi-agent systems, especially when the work evaluates behavioral fidelity, survey simulation, preference elicitation, strategic reasoning, or organizational utility.
+This public contribution project prioritizes papers that directly model people, consumers, workers, teams, organizations, or social systems with LLMs, agents, personas, or digital-twin methods. Entries are grouped by research use case so readers can move from applied market and organizational work into supporting methods, evaluation, and foundations.
+
+## Contents
+
+- [Scope](#scope)
+- [Classification Guide](#classification-guide)
+- [Core Bibliography](#core-bibliography)
+  - [Market Research, Synthetic Respondents, and Consumer Insight](#market-research-synthetic-respondents-and-consumer-insight)
+  - [Human Digital Twins, Personas, and Preference Models](#human-digital-twins-personas-and-preference-models)
+  - [Organizational Decision Making, Strategy, and Enterprise Agents](#organizational-decision-making-strategy-and-enterprise-agents)
+  - [Multi-Agent Social Simulation and Collective Behavior](#multi-agent-social-simulation-and-collective-behavior)
+  - [Evaluation, Benchmarks, and LLM-as-Judge Methods](#evaluation-benchmarks-and-llm-as-judge-methods)
+  - [Bias, Values, Culture, and Representation](#bias-values-culture-and-representation)
+  - [Cognition, Psychology, and Human Behavior Foundations](#cognition-psychology-and-human-behavior-foundations)
+  - [Applied Simulation Domains](#applied-simulation-domains)
+  - [Surveys, Foundations, and Platform Papers](#surveys-foundations-and-platform-papers)
+- [How To Contribute](#how-to-contribute)
+- [Curation Notes](#curation-notes)
 
 ## Scope
 
-Included:
+Included work:
 
-- Peer-reviewed papers
-- arXiv preprints
-- Workshop papers
-- High-quality technical reports or platform papers when they are directly useful to this research area
+- Peer-reviewed papers, arXiv preprints, workshop papers, and high-quality technical reports.
+- Research that models humans, consumers, workers, teams, organizations, social groups, or decision makers.
+- Papers that evaluate behavioral fidelity, survey simulation, preference elicitation, persona consistency, collective behavior, organizational utility, or decision-support value.
 
 Preferred ordering:
 
-- Topic first
-- Latest papers first within each topic
-- Foundational papers kept near the end of a section when they still matter for context
+- Topic first.
+- Latest and most directly relevant work first within each topic.
+- Foundational papers retained when they are still useful context.
 
-## Topic Map
+## Classification Guide
 
-| Topic | What belongs here |
+| Category | Use it for |
 | --- | --- |
-| Market research and synthetic respondents | Survey simulation, consumer modeling, preference estimation, public opinion emulation, Likert-style response generation |
-| Organizational decision making | Strategic reasoning, management support, business process reasoning, alignment for enterprise settings |
-| Human digital twins and personas | Persona construction, stable human-like memory, belief modeling, behavioral proxies |
-| Multi-agent simulation | Team coordination, group dynamics, social simulation, organizational behavior |
-| Evaluation and benchmarks | Benchmarks for survey questions, persona fidelity, reasoning quality, decision support |
-| Surveys and perspectives | Overviews of agentic LLMs, alignment, and related methodology |
-| Tools and platforms | Open-source systems that help build, deploy, or evaluate decision-support agents |
+| Market research and synthetic respondents | Survey simulation, customer personas, consumer choice, purchase intent, public opinion, market-research workflows |
+| Human digital twins and personas | Person-level twins, persona generation, preference models, belief models, personality emulation, backstories |
+| Organizational decision making | Strategy, enterprise alignment, business-process reasoning, financial or managerial decision support |
+| Multi-agent social simulation | Group dynamics, collective decision making, team behavior, simulated populations, social systems |
+| Evaluation and benchmarks | Fidelity tests, LLM-as-judge methods, survey benchmarks, usability evaluation, task evaluation |
+| Bias, values, and representation | Political, cultural, moral, gender, demographic, and sample-representation risks |
+| Cognition and psychology foundations | Human choice, decision theory, cognition, psychology, and behavior-modeling background |
+| Applied domains | Education, recommendation systems, economics, finance, politics, and other domain-specific simulations |
+| Surveys and platforms | Broad surveys, platform papers, toolkits, and reusable systems |
 
-## Recommended Citation Format
+## Core Bibliography
 
-Use this pattern for each entry:
+### Market Research, Synthetic Respondents, and Consumer Insight
 
-> Title. Authors. Year. Venue or type. URL. Short note on relevance.
+- **Simulation of Human Survey Responses for Market Research: The Role of Contextualization in LLM-Based Agents**. Bhupender Kumar Saini, Chandan Kumar, Kathrin Pollmann, Janina Bierkandt, Doris Janssen, Christian Knecht, Nora Fronemann. 2026. CHI EA. https://doi.org/10.1145/3772363.3798991. Directly studies how contextualization changes LLM-based survey-response simulation for market research.
+- **Augmenting Survey Data with Generative AI: An Application to Economic Research**. 2026. SSRN. https://doi.org/10.2139/ssrn.6343598. Uses generative AI to augment survey data for economic research.
+- **AI-Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators**. 2025. Journal of Marketing. https://doi.org/10.1177/00222429241276529. Focuses on LLM collaboration in marketing research workflows.
+- **LLMs Reproduce Human Purchase Intent via Semantic Similarity Elicitation of Likert Ratings**. Benjamin F. Maier et al. 2025. arXiv preprint. https://arxiv.org/abs/2510.08338. Evaluates whether LLMs can reproduce purchase-intent signals from Likert-style responses.
+- **Large Language Models as Virtual Survey Respondents: Evaluating Sociodemographic Response Generation**. Jianpeng Zhao et al. 2025. arXiv preprint. https://arxiv.org/abs/2509.06337. Studies demographic response fidelity for synthetic survey respondents.
+- **Emulating Public Opinion: A Proof-of-Concept of AI-Generated Synthetic Survey Responses for the Chilean Case**. Bastian Gonzalez-Bustamante, Nando Verelst, Carla Cisternas. 2025. Working paper. https://arxiv.org/abs/2509.09871. Applied synthetic-respondent study for public-opinion research.
+- **How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective**. 2025. SSRN. https://doi.org/10.2139/ssrn.6131846. Quantifies uncertainty when comparing LLM responses with human survey respondents.
+- **Simulating Human Opinions with Large Language Models: Opportunities and Challenges for Personalized Survey Data Modeling**. Carolin Kaiser, Jakob Kaiser, Vladimir Manewitsch, Lea Rau, Rene Schallner. 2025. UMAP Adjunct. https://doi.org/10.1145/3708319.3733685. Focuses on personalized survey-data modeling.
+- **PersonaBOT: Bringing Customer Personas to Life with LLMs and RAG**. Muhammed Rizwan, Lars Carlsson, Mohammad Loni. 2025. arXiv preprint. https://arxiv.org/pdf/2505.17156. Applies LLMs and retrieval-augmented generation to customer-persona interaction.
+- **Using LLMs to Model the Beliefs and Preferences of Targeted Populations**. Keiichi Namikoshi, Alex Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, Nikos Arechiga. 2024. arXiv preprint. https://arxiv.org/abs/2403.20252. Relevant to virtual focus groups and population-specific preference modeling.
+- **Synthetic Replacements for Human Survey Data? The Perils of Large Language Models**. James Bisbee, Joshua D. Clinton, Cassy Dorff, Brenton Kenkel, Jennifer M. Larson. 2024. Political Analysis. https://doi.org/10.1017/pan.2024.5. Important cautionary paper on replacing human survey data with LLM outputs.
+- **Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information**. Seungjong Sun, Eungu Lee, Dongyan Nan, Xiangying Zhao, Wonbyung Lee, Bernard J. Jansen, Jang Hyun Kim. 2024. arXiv preprint. https://arxiv.org/pdf/2402.18144. Simulates sub-population opinion from group-level demographic signals.
+- **AI-Augmented Surveys: Leveraging Large Language Models and Surveys for Opinion Prediction**. Junsol Kim, Byungkyu Lee, Peter Bearman, et al. 2023. arXiv preprint. https://arxiv.org/abs/2305.09620. Combines survey data and LLMs for opinion prediction.
+- **Using LLMs for Market Research**. 2023. Harvard Business School Marketing Unit Working Paper. https://doi.org/10.2139/ssrn.4395751. Early applied reference for using LLMs in market research.
 
-Example:
+### Human Digital Twins, Personas, and Preference Models
 
-> Generative Agents: Interactive Simulacra of Human Behavior. Joon Sung Park et al. 2023. CHI 2023 / arXiv. https://arxiv.org/abs/2304.03442. Foundational paper for LLM-based human-like agents with memory, reflection, and interaction.
+- **Copersona: Leveraging LLMs and Expert Collaboration to Understand User Personas Through Social Media Data Analysis**. Min Yin, Haoyu Liu, Boyi Lian, Ruiyi Cai. 2026. Design for Augmented Humanity. https://doi.org/10.1177/29776481261426454. Persona-development reference for consumer understanding and product design.
+- **A Foundation Model to Predict and Capture Human Cognition**. Marcel Binz, Elif Akata, Matthias Bethge, et al. 2025. Nature. https://doi.org/10.1038/S41586-025-09215-4. Connects foundation models with cognition modeling.
+- **Twin-2K-500: A Dataset for Building Digital Twins of over 2,000 People Based on Their Answers to over 500 Questions**. Olivier Toubia, George Z. Gui, Tianyi Peng, Daniel J. Merlau, Ang Li, Haozhe Chen. 2025. arXiv preprint. https://arxiv.org/pdf/2505.17479. Dataset for person-level digital twins.
+- **A Mega-Study of Digital Twins Reveals Strengths, Weaknesses and Opportunities for Further Improvement**. 2025. SSRN. https://doi.org/10.2139/ssrn.5518418. Large-scale study of digital-twin performance and limitations.
+- **LLM Generated Persona Is a Promise with a Catch**. Ang Li, Haozhe Chen, Hongseok Namkoong, Tianyi Peng. 2025. arXiv preprint. https://arxiv.org/pdf/2503.16527v1. Evaluates promise and limitations of generated personas.
+- **PersonaFlow: Designing LLM-Simulated Expert Perspectives for Enhanced Research Ideation**. Yiren Liu, Pranav Sharma, Mehul Jitendra Oswal, Haijun Xia, Yun Huang. 2025. DIS. https://doi.org/10.1145/3715336.3735789. Uses simulated expert perspectives for ideation.
+- **PersonaCraft: Leveraging Language Models for Data-Driven Persona Development**. Soon Gyo Jung, Joni Salminen, Kholoud Khalil Aldous, Bernard J. Jansen. 2025. International Journal of Human-Computer Studies. https://doi.org/10.1016/J.IJHCS.2025.103445. Practical pipeline for data-driven personas.
+- **The Impostor Is Among Us: Can Large Language Models Capture the Complexity of Human Personas?** Christopher Lazik, Christopher Katins, Charlotte Kauter, et al. 2025. arXiv preprint. https://arxiv.org/pdf/2501.04543v1. Tests limits of persona complexity.
+- **D-Twins: Your Digital Twin Designed for Real-Time Boredom Intervention**. I. Chen Lo, Pei Luen Patrick Rau. 2025. CHI. https://doi.org/10.1145/3706598.3714163. Digital-twin intervention system.
+- **PersonalAI: Towards Digital Twins in the Graph Form**. Mikhail Menschikov, Dmitry Evseev, Ruslan Kostoev, et al. 2025. arXiv preprint. https://arxiv.org/pdf/2506.17001. Graph-based digital-twin approach.
+- **Deep Binding of Language Model Virtual Personas: a Study on Approximating Political Partisan Misperceptions**. Minwoo Kang et al. 2025. COLM / arXiv preprint. https://arxiv.org/abs/2504.11673. Persona-fidelity paper focused on belief consistency.
+- **Evaluating the Ability of Large Language Models to Emulate Personality**. Yilei Wang, Jiabao Zhao, Deniz S. Ones, Liang He, Xin Xu. 2025. Scientific Reports. https://doi.org/10.1038/S41598-024-84109-5. Evaluates personality emulation in LLMs.
+- **Virtual Personas for Language Models via an Anthology of Backstories**. Suhong Moon et al. 2024. EMNLP. https://arxiv.org/abs/2407.06576. Constructs consistent virtual personas through backstories.
+- **Beyond Demographics: Aligning Role-Playing LLM-Based Agents Using Human Belief Networks**. Yun-Shiuan Chuang, Zach Studdiford, Krirk Nirunwiroj, et al. 2024. EMNLP. https://doi.org/10.48550/arXiv.2406.17232. Uses belief networks rather than demographics alone.
+- **Understanding Human-AI Workflows for Generating Personas**. Joongi Shin, Michael A. Hedderich, Bartlomiej Jakub Rey, Andres Lucero, Antti Oulasvirta. 2024. DIS. https://doi.org/10.1145/3643834.3660729. Workflow study for persona creation.
+- **Can LLMs Capture Human Preferences?** Ali Goli, Amandeep Singh. 2023. arXiv preprint. https://arxiv.org/abs/2305.02531. Early evidence on LLMs as proxies for preference judgments.
+- **Can AI Language Models Replace Human Participants?** Danica Dillion, Niket Tandon, Yuling Gu, Kurt Gray. 2023. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2023.04.008. Foundational context for the debate on LLMs as substitutes for human participants.
+- **Persona Generation from Aggregated Social Media Data**. 2017. CHI EA. https://doi.org/10.1145/3027063.3053120. Earlier persona-generation reference using social media data.
+- **Data-Driven Personas: Constructing Archetypal Users with Clickstreams and User Telemetry**. 2016. CHI. https://doi.org/10.1145/2858036.2858523. Foundational data-driven persona-construction paper.
 
-## Market Research and Synthetic Respondents
+### Organizational Decision Making, Strategy, and Enterprise Agents
 
-- **Simulation of Human Survey Responses for Market Research: The Role of Contextualization in LLM-Based Agents**. Bhupender Kumar Saini, Chandan Kumar, Kathrin Pollmann, Janina Bierkandt, Doris Janssen, Christian Knecht, Nora Fronemann. 2026. Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems / CHI EA '26. https://dl.acm.org/doi/10.1145/3772363.3798991. Directly relevant to market research because it studies how contextualization changes LLM-based survey-response simulation.
-- **LLMs Reproduce Human Purchase Intent via Semantic Similarity Elicitation of Likert Ratings**. Benjamin F. Maier et al. 2025. arXiv preprint. https://arxiv.org/abs/2510.08338. Directly evaluates whether LLMs can reproduce purchase-intent signals from Likert-style responses.
-- **Large Language Models as Virtual Survey Respondents: Evaluating Sociodemographic Response Generation**. Jianpeng Zhao et al. 2025. arXiv preprint. https://arxiv.org/abs/2509.06337. Studies synthetic survey respondents and demographic response fidelity.
-- **Emulating Public Opinion: A Proof-of-Concept of AI-Generated Synthetic Survey Responses for the Chilean Case**. Bastián González-Bustamante, Nando Verelst, Carla Cisternas. 2025. Working paper / Empiria Lab Method Series. https://arxiv.org/abs/2509.09871. Applied example of synthetic respondents for public-opinion research.
-- **Using LLMs to Model the Beliefs and Preferences of Targeted Populations**. Keiichi Namikoshi, Alex Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, Nikos Arechiga. 2024. arXiv preprint. https://arxiv.org/abs/2403.20252. Strong fit for virtual focus groups and population-specific preference modeling.
+- **Can LLMs Help Improve Analogical Reasoning for Strategic Decisions? Experimental Evidence from Humans and GPT-4**. Phanish Puranam, Prothit Sen, Maciej Workiewicz. 2025. arXiv preprint. https://arxiv.org/abs/2505.00603. Directly tests LLM support for strategic decision making.
+- **Evaluating Intra-firm LLM Alignment Strategies in Business Contexts**. Noah Broestl et al. 2025. arXiv preprint. https://arxiv.org/abs/2505.18779. Relevant to enterprise LLM alignment and internal organizational use.
+- **An LLM-based Simulation Framework for Embodied Conversational Agents in Psychological Counseling**. 2026. AAAI. https://doi.org/10.1609/aaai.v40i35.40221. Agent simulation framework for counseling contexts.
+- **Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?** 2024. ACM EC. https://doi.org/10.1145/3670865.3673513. Studies economic behavior with LLM-based simulated agents.
+- **EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities**. 2024. ACL. https://doi.org/10.18653/v1/2024.acl-long.829. LLM agents for macroeconomic simulation.
+- **Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method**. 2024. Findings of ACL. https://doi.org/10.18653/v1/2024.findings-acl.213. Evaluates bargaining behavior and buyer-agent improvement.
+- **CryptoTrade: A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading**. 2024. EMNLP. https://doi.org/10.18653/v1/2024.emnlp-main.63. Financial decision-support agent example.
+- **Designing Heterogeneous LLM Agents for Financial Sentiment Analysis**. 2024. ACM Transactions on Management Information Systems. https://doi.org/10.1145/3688399. Financial-sentiment agent system.
+- **Towards a Benchmark for Causal Business Process Reasoning with LLMs**. Fabiana Fournier, Lior Limonad, Inna Skarbovsky. 2024. NLP4BPM workshop at BPM. https://arxiv.org/abs/2406.05506. Enterprise benchmark for causal process reasoning.
+- **FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models**. Hongyang Yang et al. 2024. Technical report. https://arxiv.org/abs/2405.14767. Open-source platform for finance and decision-support workflows.
 
-## Organizational Decision Making
+### Multi-Agent Social Simulation and Collective Behavior
 
-- **Can LLMs Help Improve Analogical Reasoning for Strategic Decisions? Experimental Evidence from Humans and GPT-4**. Phanish Puranam, Prothit Sen, Maciej Workiewicz. 2025. arXiv preprint. https://arxiv.org/abs/2505.00603. Directly tests whether LLMs can support strategic decision making.
-- **Evaluating Intra-firm LLM Alignment Strategies in Business Contexts**. Noah Broestl et al. 2025. arXiv preprint. https://arxiv.org/abs/2505.18779. Relevant to aligning LLM behavior for internal organizational use.
-- **Embodied LLM Agents Learn to Cooperate in Organized Teams**. Xudong Guo et al. 2024. arXiv preprint. https://arxiv.org/abs/2403.12482. Useful for modeling teamwork, coordination, and group decision processes.
-- **Towards a Benchmark for Causal Business Process Reasoning with LLMs**. Fabiana Fournier, Lior Limonad, Inna Skarbovsky. 2024. NLP4BPM workshop at BPM 2024. https://arxiv.org/abs/2406.05506. Practical benchmark for enterprise process reasoning.
-- **FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models**. Hongyang Yang et al. 2024. Technical report / platform paper. https://arxiv.org/abs/2405.14767. Useful decision-support platform reference for business and finance workflows.
+- **Towards an LLM-Powered Social Digital Twinning Platform**. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2505.10681. Platform direction for social digital twinning.
+- **The Empty Chair: Using LLMs to Raise Missing Perspectives in Policy Deliberations**. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2503.13812. Uses LLMs to surface missing perspectives in deliberation.
+- **Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations**. 2025. EMNLP. https://doi.org/10.18653/v1/2025.emnlp-main.1562. Studies behavior alignment in high-stakes crowd simulations.
+- **Generative Agent Simulations of 1,000 People**. Joon Sung Park, Carolyn Q. Zou, Aaron Shaw, et al. 2024. arXiv preprint. https://doi.org/10.48550/arXiv.2411.10109. Large-scale generative-agent simulation.
+- **ElectionSim: Massive Population Election Simulation Powered by Large Language Model Driven Agents**. Xinnong Zhang, Jiayu Lin, Libo Sun, et al. 2024. arXiv preprint. https://doi.org/10.48550/ARXIV.2410.20746. Large-population simulation for electoral behavior.
+- **LLM Voting: Human Choices and AI Collective Decision-Making**. 2024. AIES. https://dl.acm.org/doi/10.5555/3716662.3716809. Collective decision-making with LLM voting.
+- **An Electoral Approach to Diversify LLM-Based Multi-Agent Collective Decision-Making**. 2024. arXiv preprint. https://doi.org/10.48550/arXiv.2410.15168. Applies electoral mechanisms to diversify agent decisions.
+- **Embodied LLM Agents Learn to Cooperate in Organized Teams**. Xudong Guo et al. 2024. arXiv preprint. https://arxiv.org/abs/2403.12482. Models cooperation and coordination in organized teams.
+- **Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration**. Zhenhailong Wang, Shaoguang Mao, Wenshan Wu, Tao Ge, Furu Wei, Heng Ji. 2024. arXiv preprint. https://arxiv.org/pdf/2307.05300v3. Multi-persona self-collaboration for task solving.
+- **Social Simulacra: Creating Populated Prototypes for Social Computing Systems**. 2022. UIST. https://doi.org/10.1145/3526113.3545616. Social-computing prototype simulation with populated agents.
+- **Generative Agents: Interactive Simulacra of Human Behavior**. Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein. 2023. CHI / arXiv preprint. https://doi.org/10.48550/arXiv.2304.03442. Canonical paper for LLM agents with memory, reflection, and interaction.
 
-## Human Digital Twins and Personas
+### Evaluation, Benchmarks, and LLM-as-Judge Methods
 
-- **Deep Binding of Language Model Virtual Personas: a Study on Approximating Political Partisan Misperceptions**. Minwoo Kang et al. 2025. COLM 2025 / arXiv preprint. https://arxiv.org/abs/2504.11673. Strong persona-fidelity paper focused on belief consistency.
-- **Virtual Personas for Language Models via an Anthology of Backstories**. Suhong Moon et al. 2024. EMNLP 2024. https://arxiv.org/abs/2407.06576. Useful for constructing consistent virtual personas with richer backstories.
-- **Can LLMs Capture Human Preferences?** Ali Goli, Amandeep Singh. 2023. arXiv preprint. https://arxiv.org/abs/2305.02531. Early evidence on whether LLMs can stand in for human preference judgments.
-- **Generative Agents: Interactive Simulacra of Human Behavior**. Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein. 2023. CHI 2023 / arXiv preprint. https://arxiv.org/abs/2304.03442. Canonical starting point for LLM-based human-like agents with memory and reflection.
+- **Questionnaire Meets LLM: A Benchmark and Empirical Study of Structural Skills for Understanding Questions and Responses**. Duc-Hai Nguyen et al. 2025. arXiv preprint. https://arxiv.org/abs/2510.26238. Benchmark for survey-question and response-structure understanding.
+- **LLMs Instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks**. Anna Bavaresco, Raffaella Bernardi, Leonardo Bertolazzi, et al. 2025. ACL. https://doi.org/10.18653/v1/2025.acl-short.20. Tests when LLMs can stand in for human judges.
+- **A Survey on LLM-as-a-Judge**. Jiawei Gu, Xuhui Jiang, Zhichao Shi, et al. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2411.15594. Survey of LLM-as-judge methods.
+- **Can GPT-4o Evaluate Usability Like Human Experts? A Comparative Study on Issue Identification in Heuristic Evaluation**. Guilherme Guerino, Luiz Rodrigues, Bruna Capeleti, Rafael Ferreira Mello, Andre Freire, Luciana Zaina. 2025. arXiv preprint. https://arxiv.org/pdf/2506.16345. Compares LLM usability evaluation with human experts.
+- **LLMs-as-Judges: A Comprehensive Survey on LLM-Based Evaluation Methods**. Haitao Li, Qian Dong, Junjie Chen, et al. 2024. arXiv survey. https://doi.org/10.48550/arXiv.2412.05579. Broad survey of LLM-based evaluation methods.
+- **Automated Genre-Aware Article Scoring and Feedback Using Large Language Models**. Chihang Wang, Yuxin Dong, Zhenhong Zhang, Ruotong Wang, Shuo Wang, Jiajing Chen. 2024. arXiv preprint. https://doi.org/10.48550/arXiv.2410.14165. Automated scoring and feedback example.
+- **SimUser: Generating Usability Feedback by Simulating Various Users Interacting with Mobile Applications**. Wei Xiang, Hanfei Zhu, Suqi Lou, et al. 2024. CHI. https://doi.org/10.1145/3613904.3642481. Simulated user feedback for usability evaluation.
+- **PsychoGAT: A Novel Psychological Measurement Paradigm through Interactive Fiction Games with LLM Agents**. 2024. ACL. https://doi.org/10.18653/v1/2024.acl-long.779. Psychological measurement benchmark using interactive fiction and agents.
+- **Quantifying the Persona Effect in LLM Simulations**. 2024. ACL. https://doi.org/10.18653/v1/2024.acl-long.554. Measures how persona prompting affects simulation outputs.
 
-## Multi-Agent Simulation and Group Behavior
+### Bias, Values, Culture, and Representation
 
-- **Embodied LLM Agents Learn to Cooperate in Organized Teams**. Xudong Guo et al. 2024. arXiv preprint. https://arxiv.org/abs/2403.12482. Team coordination and cooperation in organized settings.
-- **Generative Agents: Interactive Simulacra of Human Behavior**. Joon Sung Park et al. 2023. CHI 2023 / arXiv preprint. https://arxiv.org/abs/2304.03442. Social simulation foundation for group-level behavior.
+- **Measuring Human and AI Values based on Generative Psychometrics with Large Language Models**. 2025. AAAI. https://doi.org/10.1609/aaai.v39i25.34839. Measures human and AI values with generative psychometrics.
+- **Representation Bias in Political Sample Simulations with Large Language Models**. 2025. Web Conference. https://doi.org/10.1145/3701716.3715591. Studies representation bias in political simulations.
+- **GermanPartiesQA: Benchmarking Commercial Large Language Models for Political Bias and Sycophancy**. 2025. AIES. https://doi.org/10.1609/aies.v8i1.36552. Political-bias benchmark for commercial LLMs.
+- **New Job, New Gender? Measuring the Social Bias in Image Generation Models**. 2024. ACM MM. https://doi.org/10.1145/3664647.3681433. Measures gender bias in generated images.
+- **Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models**. 2024. ACL. https://doi.org/10.18653/v1/2024.acl-long.345. Cultural dominance and global representation risk.
+- **Auditing Political Exposure Bias: Algorithmic Amplification on Twitter/X Approaching the 2024 US Presidential Election**. 2024. SSRN. https://doi.org/10.2139/ssrn.5018879. Auditing political exposure bias in social platforms.
+- **Whose Opinions Do Language Models Reflect?** 2023. ICML. https://proceedings.mlr.press/v202/santurkar23a.html. Measures whose views are represented by LLM outputs.
+- **Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models**. Myra Cheng, Esin Durmus, Dan Jurafsky. 2023. ACL. https://doi.org/10.18653/v1/2023.acl-long.84. Persona-based stereotype measurement.
+- **Evaluating the Moral Beliefs Encoded in LLMs**. 2023. NeurIPS. https://doi.org/10.52202/075280-2256. Evaluates moral beliefs represented in LLMs.
+- **Kelly Is a Warm Person, Joseph Is a Role Model: Gender Biases in LLM-Generated Reference Letters**. 2023. Findings of EMNLP. https://doi.org/10.18653/v1/2023.findings-emnlp.243. Measures gender bias in generated recommendation letters.
+- **When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment**. 2022. NeurIPS. https://doi.org/10.52202/068431-2063. Compares language models with human moral-judgment patterns.
 
-## Evaluation and Benchmarks
+### Cognition, Psychology, and Human Behavior Foundations
 
-- **Questionnaire Meets LLM: A Benchmark and Empirical Study of Structural Skills for Understanding Questions and Responses**. Duc-Hai Nguyen et al. 2025. arXiv preprint. https://arxiv.org/abs/2510.26238. Useful for testing whether models can structure survey questions and answers correctly.
-- **Towards a Benchmark for Causal Business Process Reasoning with LLMs**. Fabiana Fournier, Lior Limonad, Inna Skarbovsky. 2024. NLP4BPM workshop at BPM 2024. https://arxiv.org/abs/2406.05506. Business-process reasoning benchmark with enterprise relevance.
+- **Personality Traits in Large Language Models**. 2023. Research Square preprint. https://doi.org/10.21203/rs.3.rs-3296728/v1. Evaluates personality-trait expression in LLMs.
+- **Role Play with Large Language Models**. 2023. Nature. https://doi.org/10.1038/s41586-023-06647-8. Foundational context for role-play behavior in LLMs.
+- **The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective**. 2023. SSRN. https://doi.org/10.2139/ssrn.4650172. Causal-inference caution for behavior simulation.
+- **Using Large Language Models in Psychology**. 2023. Nature Reviews Psychology. https://doi.org/10.1038/s44159-023-00241-5. Psychology-oriented guidance on LLM usage.
+- **To Predict Human Choice, Consider the Context**. Ori Plonsky, Ido Erev. 2021. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2021.07.007. Context-sensitive choice modeling.
+- **Dual-Process Theories of Decision-Making: A Selective Survey**. Isabelle Brocas, Juan D. Carrillo. 2014. Journal of Economic Psychology. https://doi.org/10.1016/J.JOEP.2013.01.004. Classical decision-making background.
+- **Grounded Cognition**. 2008. Annual Review of Psychology. https://doi.org/10.1146/annurev.psych.59.103006.093639. Cognitive foundation for embodiment and situated reasoning.
+- **A Cognition-Based View of Decision Processes in Complex Social-Ecological Systems**. 2007. Ecology and Society. https://doi.org/10.5751/ES-02103-120127. Cognition-based decision-process framework.
+- **Agent-Based Modeling: A New Approach for Theory Building in Social Psychology**. 2007. Personality and Social Psychology Review. https://doi.org/10.1177/1088868306294789. Classic agent-based social-psychology modeling reference.
+- **Simulated Experiments: Methodology for a Virtual World**. 2003. Philosophy of Science. https://doi.org/10.1086/367872. Methodological foundation for simulated experimentation.
+- **Information, Incentives, and Proenvironmental Consumer Behavior**. 1999. Journal of Consumer Policy. https://doi.org/10.1023/A:1006211709570. Consumer-behavior background.
+- **Neural Dynamics of Decision Making Under Risk: Affective Balance and Cognitive-Emotional Interactions**. 1987. Psychological Review. https://doi.org/10.1037/0033-295X.94.3.395. Foundational decision-making and risk reference.
 
-## Surveys and Perspectives
+### Applied Simulation Domains
 
-- **Agentic Large Language Models, a Survey**. Aske Plaat et al. 2025. Journal of Artificial Intelligence Research. https://doi.org/10.1613/jair.1.18675. Helpful overview of agentic LLM methods and design choices.
-- **Aligning Large Language Models with Human: A Survey**. Yufei Wang et al. 2023. arXiv survey. https://arxiv.org/abs/2307.12966. Useful background on alignment and human-centered LLM behavior.
+#### Education and Learning
 
-## Tools and Platforms
+- **Simulating Classroom Education with LLM-Empowered Agents**. 2025. NAACL. https://doi.org/10.18653/v1/2025.naacl-long.520. Classroom simulation with LLM agents.
+- **Large Language Model as an Assignment Evaluator: Insights, Feedback, and Challenges in a 1000+ Student Course**. 2024. EMNLP. https://doi.org/10.18653/v1/2024.emnlp-main.146. Large-course assignment evaluation with LLMs.
+- **Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation**. 2024. Learning @ Scale. https://doi.org/10.1145/3657604.3662031. Simulated student profiles for item evaluation.
+- **PhysicsAssistant: An LLM-Powered Interactive Learning Robot for Physics Lab Investigations**. 2024. RO-MAN. https://doi.org/10.1109/ro-man60168.2024.10731312. Embodied learning assistant for physics labs.
 
-- **FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models**. Hongyang Yang et al. 2024. Technical report / platform paper. https://arxiv.org/abs/2405.14767. Open-source platform relevant to decision-support workflows.
+#### Recommendation Systems and User Simulation
 
-## Expanded Verified Related Literature
+- **PUB: An LLM-Enhanced Personality-Driven User Behaviour Simulator for Recommender System Evaluation**. 2025. SIGIR. https://doi.org/10.1145/3726302.3730238. Personality-driven simulator for recommender evaluation.
+- **LLM as User Simulator: Towards Training News Recommender without Real User Interactions**. 2025. SIGIR. https://doi.org/10.1145/3726302.3730224. News recommender training with LLM-simulated users.
+- **Agentic Feedback Loop Modeling Improves Recommendation and User Simulation**. 2025. SIGIR. https://doi.org/10.1145/3726302.3729893. Agentic feedback-loop modeling for recommendation.
+- **SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation**. 2025. ACL Industry. https://doi.org/10.18653/v1/2025.acl-industry.5. LLM-based recommender-system evaluation simulator.
+- **A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems**. 2025. WWW. https://doi.org/10.1145/3696410.3714858. User-simulator framework for conversational recommendation.
+- **RecUserSim: A Realistic and Diverse User Simulator for Evaluating Conversational Recommender Systems**. 2025. WWW Companion. https://doi.org/10.1145/3701716.3715258. Diverse user simulator for conversational recommenders.
+- **LLM-Powered User Simulator for Recommender System**. 2025. AAAI. https://doi.org/10.1609/aaai.v39i12.33456. LLM-powered user simulator for recommender systems.
+- **RecAgent: User Behavior Simulation with Large Language Model-based Agents**. 2024. ACM Transactions on Information Systems. https://doi.org/10.1145/3708985. Agent-based user-behavior simulation.
+- **BASES: Large-scale Web Search User Simulation with Large Language Model based Agents**. 2024. Findings of EMNLP. https://doi.org/10.18653/v1/2024.findings-emnlp.50. Web-search user simulation.
+- **Reliable LLM-based User Simulator for Task-Oriented Dialogue Systems**. 2024. SCI-CHAT Workshop. https://doi.org/10.18653/v1/2024.scichat-1.3. User simulation for task-oriented dialogue.
+- **A Survey on Large Language Models for Recommendation**. 2024. World Wide Web. https://doi.org/10.1007/s11280-024-01291-2. Survey of LLMs for recommendation.
+- **LLM-Rec: Personalized Recommendation via Prompting Large Language Models**. 2024. Findings of NAACL. https://doi.org/10.18653/v1/2024.findings-naacl.39. Prompt-based personalized recommendation.
 
-### Market Research, Survey Modeling, and Digital Twins
+#### Politics, Society, and Media
 
-- **Redefining Research Crowdsourcing Incorporating Human Feedback with LLM-Powered Digital Twins**. Amanda Chan, Catherine Di, Joseph Rupertus, et al. 2025. CHI 2025. https://doi.org/10.1145/3706599.3720269. Directly relevant to crowdsourcing, human feedback, and digital twins in research workflows.
-- **Synthetic Replacements for Human Survey Data? The Perils of Large Language Models**. James Bisbee, Joshua D. Clinton, Cassy Dorff, Brenton Kenkel, and Jennifer M. Larson. 2024. Political Analysis 32(4). https://doi.org/10.1017/pan.2024.5. Important cautionary paper on replacing human survey data with LLM outputs.
-- **AI-Augmented Surveys: Leveraging Large Language Models and Surveys for Opinion Prediction**. Junsol Kim, Byungkyu Lee, Peter Bearman, et al. 2023. arXiv preprint. https://arxiv.org/abs/2305.09620. Uses surveys and LLMs for opinion prediction.
-- **Simulating Human Opinions with Large Language Models: Opportunities and Challenges for Personalized Survey Data Modeling**. Carolin Kaiser, Jakob Kaiser, Vladimir Manewitsch, Lea Rau, and Rene Schallner. 2025. UMAP 2025 Adjunct Proceedings. https://doi.org/10.1145/3708319.3733685. Focuses on personalized survey-data modeling with LLMs.
-- **PersonaBOT: Bringing Customer Personas to Life with LLMs and RAG**. Muhammed Rizwan, Lars Carlsson, and Mohammad Loni. 2025. arXiv preprint. https://arxiv.org/pdf/2505.17156. Customer-persona generation for applied market research.
-- **Twin-2K-500: A Dataset for Building Digital Twins of over 2,000 People Based on Their Answers to over 500 Questions**. Olivier Toubia, George Z. Gui, Tianyi Peng, Daniel J. Merlau, Ang Li, and Haozhe Chen. 2025. arXiv preprint. https://arxiv.org/pdf/2505.17479. Key dataset for building person-level digital twins.
-- **Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information**. Seungjong Sun, Eungu Lee, Dongyan Nan, Xiangying Zhao, Wonbyung Lee, Bernard J. Jansen, and Jang Hyun Kim. 2024. arXiv preprint. https://arxiv.org/pdf/2402.18144. Simulates sub-population opinion from demographic signals.
-- **SimUser: Generating Usability Feedback by Simulating Various Users Interacting with Mobile Applications**. Wei Xiang, Hanfei Zhu, Suqi Lou, et al. 2024. CHI 2024. https://doi.org/10.1145/3613904.3642481. Strong adjacent work on simulated user feedback.
-- **Measuring Financial Wellbeing with Self-Reported and Bank Record Data**. Carole Comerton-Forde, John de New, Nicolás Salamanca, David C. Ribar, Andrea Nicastro, and James Ross. 2022. Economic Record 98(321). https://doi.org/10.1111/1475-4932.12664. Useful measurement context for self-report validation.
+- **Trump, Twitter, and Truth Social: How Trump Used Both Mainstream and Alt-Tech Social Media to Drive News Media Attention**. 2024. Journal of Information Technology & Politics. https://doi.org/10.1080/19331681.2024.2328156. Media-attention and social-platform context.
+- **Meet Your Favorite Character: Open-Domain Chatbot Mimicking Fictional Characters with Only a Few Utterances**. 2022. NAACL. https://doi.org/10.18653/v1/2022.naacl-main.377. Character simulation with limited examples.
 
-### Human Digital Twins, Personas, and Cognition
+#### Human-AI Collaboration and Interaction
 
-- **A Foundation Model to Predict and Capture Human Cognition**. Marcel Binz, Elif Akata, Matthias Bethge, et al. 2025. Nature. https://doi.org/10.1038/S41586-025-09215-4. Important bridge between foundation models and cognition modeling.
-- **Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models**. Myra Cheng, Esin Durmus, and Dan Jurafsky. 2023. ACL 2023. https://doi.org/10.18653/v1/2023.acl-long.84. Useful for persona measurement and stereotype analysis.
-- **Beyond Demographics: Aligning Role-Playing LLM-Based Agents Using Human Belief Networks**. Yun-Shiuan Chuang, Zach Studdiford, Krirk Nirunwiroj, et al. 2024. EMNLP 2024. https://doi.org/10.48550/arXiv.2406.17232. Focuses on belief networks rather than just demographics.
-- **PersonaCraft: Leveraging Language Models for Data-Driven Persona Development**. Soon Gyo Jung, Joni Salminen, Kholoud Khalil Aldous, and Bernard J. Jansen. 2025. International Journal of Human-Computer Studies 197. https://doi.org/10.1016/J.IJHCS.2025.103445. Practical persona development pipeline.
-- **The Impostor Is Among Us: Can Large Language Models Capture the Complexity of Human Personas?**. Christopher Lazik, Christopher Katins, Charlotte Kauter, et al. 2025. arXiv preprint. https://arxiv.org/pdf/2501.04543v1. Tests complexity limits of persona simulation.
-- **LLM Generated Persona Is a Promise with a Catch**. Ang Li, Haozhe Chen, Hongseok Namkoong, and Tianyi Peng. 2025. arXiv preprint. https://arxiv.org/pdf/2503.16527v1. Evaluates both promise and limitations of generated personas.
-- **LLMs Instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks**. Anna Bavaresco, Raffaella Bernardi, Leonardo Bertolazzi, et al. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2406.18403. Relevant for understanding when model judgments substitute for human judgment.
-- **LLMs-as-Judges: A Comprehensive Survey on LLM-Based Evaluation Methods**. Haitao Li, Qian Dong, Junjie Chen, et al. 2024. arXiv survey. https://doi.org/10.48550/arXiv.2412.05579. Useful survey for evaluation and judging methods.
-- **PersonaFlow: Designing LLM-Simulated Expert Perspectives for Enhanced Research Ideation**. Yiren Liu, Pranav Sharma, Mehul Jitendra Oswal, Haijun Xia, and Yun Huang. 2025. DIS 2025. https://doi.org/10.1145/3715336.3735789. Shows expert-perspective simulation for ideation.
-- **D-Twins: Your Digital Twin Designed for Real-Time Boredom Intervention**. I. Chen Lo and Pei Luen Patrick Rau. 2025. CHI 2025. https://doi.org/10.1145/3706598.3714163. Explicit digital-twin intervention system.
-- **PersonalAI: Towards Digital Twins in the Graph Form**. Mikhail Menschikov, Dmitry Evseev, Ruslan Kostoev, et al. 2025. arXiv preprint. https://arxiv.org/pdf/2506.17001. Graph-based digital twin approach.
-- **Evaluating the Ability of Large Language Models to Emulate Personality**. Yilei Wang, Jiabao Zhao, Deniz S. Ones, Liang He, and Xin Xu. 2025. Scientific Reports 15(1). https://doi.org/10.1038/S41598-024-84109-5. Direct personality-emulation evaluation.
-- **Understanding Human-AI Workflows for Generating Personas**. Joongi Shin, Michael A. Hedderich, Bartłomiej Jakub Rey, Andrés Lucero, and Antti Oulasvirta. 2024. DIS 2024. https://doi.org/10.1145/3643834.3660729. Useful workflow study for persona creation.
-- **Copersona: Leveraging LLMs and Expert Collaboration to Understand User Personas Through Social Media Data Analysis**. Min Yin, Haoyu Liu, Boyi Lian, and Ruiyi Cai. 2026. Design for Augmented Humanity 1(1). https://doi.org/10.1177/29776481261426454. Strong public-facing persona-development reference for consumer understanding and product design.
-- **Can AI Language Models Replace Human Participants?**. Danica Dillion, Niket Tandon, Yuling Gu, and Kurt Gray. 2023. Trends in Cognitive Sciences 27(7). https://doi.org/10.1016/j.tics.2023.04.008. Foundational context for the debate on LLMs as substitutes for human participants.
-- **Deep Binding of Language Model Virtual Personas: a Study on Approximating Political Partisan Misperceptions**. Minwoo Kang et al. 2025. COLM 2025 / arXiv preprint. https://arxiv.org/abs/2504.11673. Persona fidelity under politically sensitive beliefs.
-- **Virtual Personas for Language Models via an Anthology of Backstories**. Suhong Moon et al. 2024. EMNLP 2024. https://arxiv.org/abs/2407.06576. Persona construction with backstories.
+- **Understanding Nonlinear Collaboration between Human and AI Agents: A Co-Design Framework for Creative Design**. 2024. CHI. https://doi.org/10.1145/3613904.3642812. Co-design framework for human-AI collaboration.
+- **The Benefits of Prosociality towards AI Agents: Examining the Effects of Helping AI Agents on Human Well-Being**. Zicheng Zhu, Yugin Tan, Naomi Yamashita, Yi Chieh Lee, Renwen Zhang. 2025. CHI. https://doi.org/10.1145/3706598.3713116. Human-agent interaction and well-being.
+- **Qualitative Data-Driven Personas: Designing an Interactive System for Creating AI Personas**. Amir Reza Asadi, Jess Kropczynski. 2024. WSSE. https://doi.org/10.1145/3698062.3698096. Interactive system for AI persona creation.
+- **She Was Useful, but a Bit Too Optimistic: Augmenting Design with Interactive Virtual Personas**. Deep Paluck, Monica Bharadhidasan, A. Baki Kocaballi. 2025. International Journal of Human-Computer Studies. https://doi.org/10.1016/j.ijhcs.2025.103646. Interactive virtual personas for design augmentation.
 
-### Multi-Agent Simulation and Collective Behavior
+### Surveys, Foundations, and Platform Papers
 
-- **Human Behavior Simulation: Objectives, Methodologies, and Open Problems**. Zhang Guozhen, Yu Zihan, Li Nian, et al. 2024. arXiv preprint. https://arxiv.org/pdf/2412.07788. Broad overview of human behavior simulation.
-- **Generative Agent Simulations of 1,000 People**. Joon Sung Park, Carolyn Q. Zou, Aaron Shaw, et al. 2024. arXiv preprint. https://arxiv.org/pdf/2411.10109. Large-scale generative agent simulation.
-- **ElectionSim: Massive Population Election Simulation Powered by Large Language Model Driven Agents**. Xinnong Zhang, Jiayu Lin, Libo Sun, et al. 2024. arXiv preprint. https://doi.org/10.48550/ARXIV.2410.20746. Large population simulation for electoral behavior.
-- **Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration**. Zhenhailong Wang, Shaoguang Mao, Wenshan Wu, Tao Ge, Furu Wei, and Heng Ji. 2024. arXiv preprint. https://arxiv.org/pdf/2307.05300v3. Multi-persona collaboration for task solving.
-- **Agentic AI for Digital Twin**. Alexander Timms, Abigail Langbridge, Antonis Antonopoulos, Antonis Mygiakis, Eleni Voulgari, and Fearghal O'Donncha. 2025. AAAI 2025. https://doi.org/10.1609/AAAI.V39I28.35373. Relevant digital-twin systems perspective.
-- **The Benefits of Prosociality towards AI Agents: Examining the Effects of Helping AI Agents on Human Well-Being**. Zicheng Zhu, Yugin Tan, Naomi Yamashita, Yi Chieh Lee, and Renwen Zhang. 2025. CHI 2025. https://doi.org/10.1145/3706598.3713116. Human-agent interaction and well-being context.
-- **Which Experiences Are Influential for RL Agents? Efficiently Estimating The Influence of Experiences**. Takuya Hiraoka, Guanquan Wang, Takashi Onishi, and Yoshimasa Tsuruoka. 2024. Reinforcement Learning Journal. https://arxiv.org/pdf/2405.14629. Adjacent context for experience influence and agent memory.
-- **Large Language Model Guided Tree-of-Thought**. Jieyi Long. 2023. arXiv preprint. https://arxiv.org/pdf/2305.08291. Broader reasoning context for agentic systems.
-
-### Evaluation, Judges, and Benchmarks
-
-- **LLMs Instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks**. Anna Bavaresco, Raffaella Bernardi, Leonardo Bertolazzi, et al. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2406.18403. Tests when LLMs can stand in for human judges.
-- **A Survey on LLM-as-a-Judge**. Jiawei Gu, Xuhui Jiang, Zhichao Shi, et al. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2411.15594. Survey of judge-model techniques.
-- **Can GPT-4o Evaluate Usability Like Human Experts? A Comparative Study on Issue Identification in Heuristic Evaluation**. Guilherme Guerino, Luiz Rodrigues, Bruna Capeleti, Rafael Ferreira Mello, André Freire, and Luciana Zaina. 2025. arXiv preprint. https://arxiv.org/pdf/2506.16345. Human-expert comparison in usability evaluation.
-- **Automated Genre-Aware Article Scoring and Feedback Using Large Language Models**. Chihang Wang, Yuxin Dong, Zhenhong Zhang, Ruotong Wang, Shuo Wang, and Jiajing Chen. 2024. arXiv preprint. https://doi.org/10.48550/arXiv.2410.14165. Example of automated evaluation and feedback generation.
-- **LLMs-as-Judges: A Comprehensive Survey on LLM-Based Evaluation Methods**. Haitao Li, Qian Dong, Junjie Chen, et al. 2024. arXiv survey. https://doi.org/10.48550/arXiv.2412.05579. Broader evaluation-method survey.
-
-### Broader Decision-Making Context
-
-- **Dual-Process Theories of Decision-Making: A Selective Survey**. Isabelle Brocas and Juan D. Carrillo. 2014. Journal of Economic Psychology 41. https://doi.org/10.1016/J.JOEP.2013.01.004. Classical decision-making background.
-- **To Predict Human Choice, Consider the Context**. Ori Plonsky and Ido Erev. 2021. Trends in Cognitive Sciences 25(10). https://doi.org/10.1016/j.tics.2021.07.007. Context-sensitive choice modeling.
-- **Metacognitive Prompting Improves Understanding in Large Language Models**. Yuqing Wang and Yun Zhao. 2024. NAACL 2024. https://doi.org/10.18653/V1/2024.NAACL-LONG.106. Helpful prompting context for understanding and decision support.
+- **Exploring the Frontiers of LLMs in Psychological Applications: A Comprehensive Review**. 2025. Artificial Intelligence Review. https://doi.org/10.1007/s10462-025-11297-5. Review of psychological applications of LLMs.
+- **Agentic Large Language Models, a Survey**. Aske Plaat et al. 2025. Journal of Artificial Intelligence Research. https://doi.org/10.1613/jair.1.18675. Broad survey of agentic LLM methods and design choices.
+- **Towards Lifelong Learning of Large Language Models: A Survey**. 2025. ACM Computing Surveys. https://doi.org/10.1145/3716629. Survey of lifelong-learning directions for LLMs.
+- **Human Behavior Simulation: Objectives, Methodologies, and Open Problems**. Zhang Guozhen, Yu Zihan, Li Nian, et al. 2024. arXiv preprint. https://arxiv.org/pdf/2412.07788. Overview of human behavior simulation.
+- **Can Large Language Models Transform Computational Social Science?** 2024. Computational Linguistics. https://doi.org/10.1162/coli_a_00502. Perspective on LLMs in computational social science.
+- **Large Language Model Guided Tree-of-Thought**. Jieyi Long. 2023. arXiv preprint. https://arxiv.org/pdf/2305.08291. Reasoning method relevant to agentic planning.
+- **Metacognitive Prompting Improves Understanding in Large Language Models**. Yuqing Wang, Yun Zhao. 2024. NAACL. https://doi.org/10.18653/V1/2024.NAACL-LONG.106. Prompting method relevant to reasoning and decision support.
+- **Out of One, Many: Using Language Models to Simulate Human Samples**. 2023. Political Analysis. https://doi.org/10.1017/pan.2023.2. Foundational synthetic-sample paper.
+- **Aligning Large Language Models with Human: A Survey**. Yufei Wang et al. 2023. arXiv survey. https://arxiv.org/abs/2307.12966. Background on human-centered LLM alignment.
+- **Emergent Abilities of Large Language Models**. 2022. arXiv preprint. https://doi.org/10.48550/arXiv.2206.07682. Foundational scaling and capability paper.
+- **Agentic AI for Digital Twin**. Alexander Timms, Abigail Langbridge, Antonis Antonopoulos, Antonis Mygiakis, Eleni Voulgari, Fearghal O'Donncha. 2025. AAAI. https://doi.org/10.1609/AAAI.V39I28.35373. Digital-twin systems perspective.
+- **Which Experiences Are Influential for RL Agents? Efficiently Estimating The Influence of Experiences**. Takuya Hiraoka, Guanquan Wang, Takashi Onishi, Yoshimasa Tsuruoka. 2024. Reinforcement Learning Journal. https://arxiv.org/pdf/2405.14629. Adjacent reference for agent experience and memory influence.
 
 ## How To Contribute
 
-Public contributions are welcome.
-
-When suggesting a paper, include:
+Public contributions are welcome. When suggesting a paper, include:
 
 - Title
 - Authors
 - Year
 - Venue or paper type
-- Canonical URL
+- DOI link or canonical paper URL
 - One-line reason it belongs in this list
-- Suggested category
+- Suggested category from the classification guide
 
 Contribution standards:
 
-- Prefer papers that directly model humans, consumers, workers, teams, or organizations.
-- Prefer work that evaluates fidelity, usefulness, or decision support, not generic agent demos.
-- Prefer the newest relevant work when multiple papers cover the same angle.
+- Prefer papers that directly model humans, consumers, workers, teams, organizations, or social groups.
+- Prefer work that evaluates fidelity, usefulness, risks, or decision-support value.
+- Prefer DOI links in `https://doi.org/...` format when available.
+- Use official publisher pages, arXiv pages, or stable PDF URLs when a DOI is unavailable.
 - Keep entries concise and citation-like so the README remains easy to scan.
 
 ## Curation Notes
 
-This is a living bibliography. As the field changes, new papers should be added to the most relevant topic section and ordered by recency. If a paper could fit multiple sections, place it where it is most useful to a reader working on market research or organizational decision making.
+This is a living bibliography. Add new papers to the most relevant category and order them by recency and relevance. If a paper fits multiple categories, place it where it is most useful to readers working on market research, human digital twins, or organizational decision making.
 
-If you are contributing for the first time, open a pull request with the paper metadata in plain text. A short note explaining why the paper matters is usually enough for review.
-
-## Contributor-Supplied Research Index
-
-This supplemental index captures the broader literature set requested by contributors. Some items are already listed above; they are included here to make the taxonomy easy to scan from the repository homepage.
-
-### 1. Foundations and Surveys
-
-- Out of One, Many: Using Language Models to Simulate Human Samples. Political Analysis, 2023. https://doi.org/10.1017/pan.2023.2.
-- Can Large Language Models Transform Computational Social Science?. Computational Linguistics, 2024. https://doi.org/10.1162/coli_a_00502.
-- Exploring the Frontiers of LLMs in Psychological Applications: A Comprehensive Review. Artificial Intelligence Review, 2025. https://doi.org/10.1007/s10462-025-11297-5.
-- Using Large Language Models in Psychology. Nature Reviews Psychology, 2023. https://doi.org/10.1038/s44159-023-00241-5.
-- Emergent Abilities of Large Language Models. arXiv, 2022. https://doi.org/10.48550/arXiv.2206.07682.
-
-### 2. LLM for Human Behavior Simulation
-
-- Generative Agents: Interactive Simulacra of Human Behavior. arXiv:2304.03442. Preprint, arXiv, August 6, 2023. https://doi.org/10.48550/arXiv.2304.03442.
-- Social Simulacra: Creating Populated Prototypes for Social Computing Systems. arXiv:2208.04024. Preprint, arXiv, August 8, 2022. https://doi.org/10.48550/arXiv.2208.04024.
-- The Empty Chair: Using LLMs to Raise Missing Perspectives in Policy Deliberations. arXiv:2503.13812. Version 2. Preprint, arXiv, November 14, 2025. https://doi.org/10.48550/arXiv.2503.13812.
-- A Mega-Study of Digital Twins Reveals Strengths, Weaknesses and Opportunities for Further Improvement. SSRN, 2025. https://doi.org/10.2139/ssrn.5518418.
-- How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective. SSRN, 2025. https://doi.org/10.2139/ssrn.6131846.
-- Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations. EMNLP, 2025. https://doi.org/10.18653/v1/2025.emnlp-main.1562.
-- Generative Agent Simulations of 1,000 People. arXiv, 2024. https://doi.org/10.48550/arXiv.2411.10109.
-- PsychoGAT: A Novel Psychological Measurement Paradigm through Interactive Fiction Games with LLM Agents. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.779.
-- Quantifying the Persona Effect in LLM Simulations. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.554.
-- "Kelly Is a Warm Person, Joseph Is a Role Model": Gender Biases in LLM-Generated Reference Letters. Findings of EMNLP, 2023. https://doi.org/10.18653/v1/2023.findings-emnlp.243.
-- Personality Traits in Large Language Models. Research Square preprint, 2023. https://doi.org/10.21203/rs.3.rs-3296728/v1.
-- Role Play with Large Language Models. Nature, 2023. https://doi.org/10.1038/s41586-023-06647-8.
-- The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective. SSRN, 2023. https://doi.org/10.2139/ssrn.4650172.
-- Meet Your Favorite Character: Open-Domain Chatbot Mimicking Fictional Characters with Only a Few Utterances. NAACL, 2022. https://doi.org/10.18653/v1/2022.naacl-main.377.
-
-### 3. LLM Agents
-
-- Towards an LLM-Powered Social Digital Twinning Platform. arXiv:2505.10681. Preprint, arXiv, May 15, 2025. https://doi.org/10.48550/arXiv.2505.10681.
-- An LLM-based Simulation Framework for Embodied Conversational Agents in Psychological Counseling. AAAI, 2026. https://doi.org/10.1609/aaai.v40i35.40221.
-- Hello Again! LLM-powered Personalized Agent for Long-term Dialogue. NAACL, 2025. https://doi.org/10.18653/v1/2025.naacl-long.272.
-- Towards Lifelong Learning of Large Language Models: A Survey. ACM Computing Surveys, 2025. https://doi.org/10.1145/3716629.
-
-### 4. LLM Bias and Value
-
-- Measuring Human and AI Values based on Generative Psychometrics with Large Language Models. AAAI, 2025. https://doi.org/10.1609/aaai.v39i25.34839.
-- Representation Bias in Political Sample Simulations with Large Language Models. Web Conference, 2025. https://doi.org/10.1145/3701716.3715591.
-- New Job, New Gender? Measuring the Social Bias in Image Generation Models. ACM MM, 2024. https://doi.org/10.1145/3664647.3681433.
-- Whose Opinions Do Language Models Reflect?. ICML, 2023. https://proceedings.mlr.press/v202/santurkar23a.html.
-- Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.345.
-- Evaluating the Moral Beliefs Encoded in LLMs. NeurIPS, 2023. https://doi.org/10.52202/075280-2256.
-- When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment. NeurIPS, 2022. https://doi.org/10.52202/068431-2063.
-
-### 5. LLM Simulation Applications
-
-#### 5.1 Economics and Finance
-
-- Augmenting Survey Data with Generative AI: An Application to Economic Research. SSRN, 2026. https://doi.org/10.2139/ssrn.6343598.
-- Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?. ACM EC, 2024. https://doi.org/10.1145/3670865.3673513.
-- Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method. Findings of ACL, 2024. https://doi.org/10.18653/v1/2024.findings-acl.213.
-- CryptoTrade: A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading. EMNLP, 2024. https://doi.org/10.18653/v1/2024.emnlp-main.63.
-- EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities. ACL, 2024. https://doi.org/10.18653/v1/2024.acl-long.829.
-- Designing Heterogeneous LLM Agents for Financial Sentiment Analysis. ACM Transactions on Management Information Systems, 2024. https://doi.org/10.1145/3688399.
-
-#### 5.2 Politics and Society
-
-- Auditing Political Exposure Bias: Algorithmic Amplification on Twitter/X Approaching the 2024 US Presidential Election. SSRN, 2024. https://doi.org/10.2139/ssrn.5018879.
-- GermanPartiesQA: Benchmarking Commercial Large Language Models for Political Bias and Sycophancy. AIES, 2025. https://doi.org/10.1609/aies.v8i1.36552.
-- Trump, Twitter, and Truth Social: How Trump Used Both Mainstream and Alt-Tech Social Media to Drive News Media Attention. Journal of Information Technology & Politics, 2024. https://doi.org/10.1080/19331681.2024.2328156.
-
-#### 5.3 Education
-
-- Large Language Model as an Assignment Evaluator: Insights, Feedback, and Challenges in a 1000+ Student Course. EMNLP, 2024. https://doi.org/10.18653/v1/2024.emnlp-main.146.
-- Simulating Classroom Education with LLM-Empowered Agents. NAACL, 2025. https://doi.org/10.18653/v1/2025.naacl-long.520.
-- Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation. Learning @ Scale, 2024. https://doi.org/10.1145/3657604.3662031.
-- PhysicsAssistant: An LLM-Powered Interactive Learning Robot for Physics Lab Investigations. RO-MAN, 2024. https://doi.org/10.1109/ro-man60168.2024.10731312.
-
-#### 5.4 Recommendation Systems and User Simulation
-
-- PUB: An LLM-Enhanced Personality-Driven User Behaviour Simulator for Recommender System Evaluation. SIGIR, 2025. https://doi.org/10.1145/3726302.3730238.
-- LLM as User Simulator: Towards Training News Recommender without Real User Interactions. SIGIR, 2025. https://doi.org/10.1145/3726302.3730224.
-- Agentic Feedback Loop Modeling Improves Recommendation and User Simulation. SIGIR, 2025. https://doi.org/10.1145/3726302.3729893.
-- SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation. ACL Industry, 2025. https://doi.org/10.18653/v1/2025.acl-industry.5.
-- A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems. WWW, 2025. https://doi.org/10.1145/3696410.3714858.
-- RecUserSim: A Realistic and Diverse User Simulator for Evaluating Conversational Recommender Systems. WWW Companion, 2025. https://doi.org/10.1145/3701716.3715258.
-- LLM-Powered User Simulator for Recommender System. AAAI, 2025. https://doi.org/10.1609/aaai.v39i12.33456.
-- RecAgent: User Behavior Simulation with Large Language Model-based Agents. ACM Transactions on Information Systems, 2024. https://doi.org/10.1145/3708985.
-- BASES: Large-scale Web Search User Simulation with Large Language Model based Agents. Findings of EMNLP, 2024. https://doi.org/10.18653/v1/2024.findings-emnlp.50.
-- Reliable LLM-based User Simulator for Task-Oriented Dialogue Systems. SCI-CHAT Workshop, 2024. https://doi.org/10.18653/v1/2024.scichat-1.3.
-- A Survey on Large Language Models for Recommendation. World Wide Web, 2024. https://doi.org/10.1007/s11280-024-01291-2.
-- LLM-Rec: Personalized Recommendation via Prompting Large Language Models. Findings of NAACL, 2024. https://doi.org/10.18653/v1/2024.findings-naacl.39.
-
-#### 5.5 Customer and Consumer Simulation
-
-- Persona Generation from Aggregated Social Media Data. Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (New York, NY, USA), CHI EA '17, May 6, 2017, 1748–55. https://doi.org/10.1145/3027063.3053120.
-- Data-Driven Personas: Constructing Archetypal Users with Clickstreams and User Telemetry. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (New York, NY, USA), CHI '16, May 7, 2016, 5350–59. https://doi.org/10.1145/2858036.2858523.
-- Asadi, Amir Reza, and Jess Kropczynski. Qualitative Data-Driven Personas: Designing an Interactive System for Creating AI Personas. Proceedings of the 2024 The 6th World Symposium on Software Engineering (WSSE) (New York, NY, USA), WSSE '24, December 8, 2024, 232–36. https://doi.org/10.1145/3698062.3698096.
-- Deep, Paluck, Monica Bharadhidasan, and A. Baki Kocaballi. 'She Was Useful, but a Bit Too Optimistic': Augmenting Design with Interactive Virtual Personas. International Journal of Human-Computer Studies 205 (November 2025): 103646. https://doi.org/10.1016/j.ijhcs.2025.103646.
-- Towards an LLM-Powered Social Digital Twinning Platform. arXiv:2505.10681. Preprint, arXiv, May 15, 2025. https://doi.org/10.48550/arXiv.2505.10681.
-- LLM Voting: Human Choices and AI Collective Decision-Making. Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society (San Jose, California, USA), AIES '24, February 7, 2025, 1696–708. https://dl.acm.org/doi/10.5555/3716662.3716809.
-- An Electoral Approach to Diversify LLM-Based Multi-Agent Collective Decision-Making. arXiv:2410.15168. Preprint, arXiv, October 19, 2024. https://doi.org/10.48550/arXiv.2410.15168.
-- Understanding Nonlinear Collaboration between Human and AI Agents: A Co-Design Framework for Creative Design. Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (New York, NY, USA), CHI '24, May 11, 2024, 1–16. https://doi.org/10.1145/3613904.3642812.
-- AI-Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators. Journal of Marketing, 2025. https://doi.org/10.1177/00222429241276529.
-- Using LLMs for Market Research. Harvard Business School Marketing Unit Working Paper, 2023. https://doi.org/10.2139/ssrn.4395751.
-
-### 6. LLM Evaluation
-
-- LLMs Instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks. ACL, 2025. https://doi.org/10.18653/v1/2025.acl-short.20.
-- LLMs-as-Judges: A Comprehensive Survey on LLM-Based Evaluation Methods. arXiv, 2024. https://doi.org/10.48550/arXiv.2412.05579.
-
-### 7. Cognition and Psychology
-
-- Grounded Cognition. Annual Review of Psychology, 2008. https://doi.org/10.1146/annurev.psych.59.103006.093639.
-- Neural Dynamics of Decision Making Under Risk: Affective Balance and Cognitive-Emotional Interactions. Psychological Review, 1987. https://doi.org/10.1037/0033-295X.94.3.395.
-- A Cognition-Based View of Decision Processes in Complex Social-Ecological Systems. Ecology and Society, 2007. https://doi.org/10.5751/ES-02103-120127.
-- Information, Incentives, and Proenvironmental Consumer Behavior. Journal of Consumer Policy, 1999. https://doi.org/10.1023/A:1006211709570.
-
-### 8. Social Simulation
-
-- Social Simulacra: Creating Populated Prototypes for Social Computing Systems. UIST, 2022. https://doi.org/10.1145/3526113.3545616.
-- Agent-Based Modeling: A New Approach for Theory Building in Social Psychology. Personality and Social Psychology Review, 2007. https://doi.org/10.1177/1088868306294789.
-- Simulated Experiments: Methodology for a Virtual World. Philosophy of Science, 2003. https://doi.org/10.1086/367872.
-
+Every paper entry should include a DOI link or canonical URL. Unverified title-only suggestions should stay out of the README until a reliable source is available.

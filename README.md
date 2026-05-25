@@ -1,4 +1,4 @@
-# Awesome LLM-Based Human Digital Twin
+# LLM-Powered Human Digital Twins
 
 A curated, community-maintained bibliography of research on LLM-based and multi-agent human digital twins, with special focus on market research, consumer modeling, organizational decision making, and decision support.
 

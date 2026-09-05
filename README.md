@@ -18,6 +18,7 @@ This public contribution project prioritizes papers that directly model people, 
   - [Cognition, Psychology, and Human Behavior Foundations](#cognition-psychology-and-human-behavior-foundations)
   - [Applied Simulation Domains](#applied-simulation-domains)
   - [Surveys, Foundations, and Platform Papers](#surveys-foundations-and-platform-papers)
+- [Research Agenda and Open Problems](#research-agenda-and-open-problems)
 - [How To Contribute](#how-to-contribute)
 - [Curation Notes](#curation-notes)
 
@@ -53,6 +54,8 @@ Preferred ordering:
 
 ### Market Research, Synthetic Respondents, and Consumer Insight
 
+- **LLM Consumer Behavior Theory: Foundations of a Novel Research Field**. Manon Reusens, Sofie Goethals, David Martens. 2026. arXiv preprint. https://arxiv.org/abs/2606.18005. Establishes a consumer-theory lens for preference representation, autonomous purchasing agents, and agentic market demand.
+- **Shop-R1: Rewarding LLMs to Simulate Human Behavior in Online Shopping via Reinforcement Learning**. Yimeng Zhang, Tian Wang, Jiri Gesi, Ziyi Wang, Yuxuan Lu, Jiacheng Lin, Sinong Zhan, Vianne Gao, Ruochen Jiao, et al. 2026. ICLR. https://arxiv.org/abs/2507.17842. Uses separate rewards for rationale generation and action prediction to improve simulation of real online-shopping behavior.
 - **Simulation of Human Survey Responses for Market Research: The Role of Contextualization in LLM-Based Agents**. Bhupender Kumar Saini, Chandan Kumar, Kathrin Pollmann, Janina Bierkandt, Doris Janssen, Christian Knecht, Nora Fronemann. 2026. CHI EA. https://doi.org/10.1145/3772363.3798991. Directly studies how contextualization changes LLM-based survey-response simulation for market research.
 - **Augmenting Survey Data with Generative AI: An Application to Economic Research**. 2026. SSRN. https://doi.org/10.2139/ssrn.6343598. Uses generative AI to augment survey data for economic research.
 - **When Can Digital Personas Reliably Approximate Human Survey Findings?** Mumin Jia, Yilin Chen, Divya Sharma, Jairo Diaz-Rodriguez. 2026. arXiv preprint. https://arxiv.org/abs/2605.10659. Tests when LLM-powered digital personas can approximate held-out human survey findings.
@@ -77,6 +80,7 @@ Preferred ordering:
 
 ### Human Digital Twins, Personas, and Preference Models
 
+- **Mixture-of-Personas Language Models for Population Simulation**. Ngoc Bui, Hieu Trung Nguyen, Shantanu Kumar, Julian Theodore, Weikang Qiu, Viet Anh Nguyen, Rex Ying. 2025. arXiv preprint. https://arxiv.org/abs/2504.05019. Uses probabilistic mixtures of persona-and-exemplar agents to better match target-population diversity without fine-tuning.
 - **Copersona: Leveraging LLMs and Expert Collaboration to Understand User Personas Through Social Media Data Analysis**. Min Yin, Haoyu Liu, Boyi Lian, Ruiyi Cai. 2026. Design for Augmented Humanity. https://doi.org/10.1177/29776481261426454. Persona-development reference for consumer understanding and product design.
 - **From Role to Person: Trust Calibration Challenges in Twin Agents**. Hugo Andersson, Niklas Elmqvist. 2026. arXiv preprint. https://arxiv.org/abs/2605.19838. Frames twin agents as personal digital representatives and identifies trust-calibration challenges.
 - **SYN-DIGITS: A Synthetic Control Framework for Calibrated Digital Twin Simulation**. Grace Jiarui Fan, Chengpiao Huang, Tianyi Peng, Kaizheng Wang, Yuhang Wu. 2026. arXiv preprint. https://arxiv.org/abs/2604.07513. Proposes synthetic-control calibration for LLM-based digital-twin simulation in market research and social science.
@@ -141,6 +145,8 @@ Preferred ordering:
 
 ### Evaluation, Benchmarks, and LLM-as-Judge Methods
 
+- **Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces**. Jiawei Chen, Ruoxi Xu, Boxi Cao, Ruotong Pan, Yunfei Zhang, Yifei Hu, Yong Du, Tingting Gao, et al. 2026. arXiv preprint. https://arxiv.org/abs/2604.08362. Introduces OmniBehavior, a real-world benchmark that exposes persona homogenization, overly positive behavior, and failure on long-horizon cross-scenario decisions.
+- **Predicting Effects, Missing Distributions: Evaluating LLMs as Human Behavior Simulators in Operations Management**. Runze Zhang, Xiaowei Zhang, Mingyang Zhao. 2026. arXiv preprint. https://arxiv.org/abs/2510.03310. Shows that matching hypothesis-test outcomes can mask response-distribution mismatch, motivating distributional validation for business simulations.
 - **Questionnaire Meets LLM: A Benchmark and Empirical Study of Structural Skills for Understanding Questions and Responses**. Duc-Hai Nguyen et al. 2025. arXiv preprint. https://arxiv.org/abs/2510.26238. Benchmark for survey-question and response-structure understanding.
 - **LLMs Instead of Human Judges? A Large Scale Empirical Study across 20 NLP Evaluation Tasks**. Anna Bavaresco, Raffaella Bernardi, Leonardo Bertolazzi, et al. 2025. ACL. https://doi.org/10.18653/v1/2025.acl-short.20. Tests when LLMs can stand in for human judges.
 - **A Survey on LLM-as-a-Judge**. Jiawei Gu, Xuhui Jiang, Zhichao Shi, et al. 2025. arXiv preprint. https://doi.org/10.48550/arXiv.2411.15594. Survey of LLM-as-judge methods.
@@ -221,6 +227,7 @@ Preferred ordering:
 
 ### Surveys, Foundations, and Platform Papers
 
+- **OdysSim: Building Foundation Models for Human Behavior Simulation**. Xuhui Zhou, Weiwei Sun, Weihua Du, Jiarui Liu, Haojia Sun, Qianou Ma, Tongshuang Wu, Yiming Yang, Maarten Sap, et al. 2026. arXiv preprint. https://arxiv.org/abs/2606.14199. Introduces the SOUL capability taxonomy, a large behavioral corpus, and the SOUL-Index benchmark for behavior-specialized foundation models.
 - **Exploring the Frontiers of LLMs in Psychological Applications: A Comprehensive Review**. 2025. Artificial Intelligence Review. https://doi.org/10.1007/s10462-025-11297-5. Review of psychological applications of LLMs.
 - **Agentic Large Language Models, a Survey**. Aske Plaat et al. 2025. Journal of Artificial Intelligence Research. https://doi.org/10.1613/jair.1.18675. Broad survey of agentic LLM methods and design choices.
 - **Towards Lifelong Learning of Large Language Models: A Survey**. 2025. ACM Computing Surveys. https://doi.org/10.1145/3716629. Survey of lifelong-learning directions for LLMs.
@@ -233,6 +240,18 @@ Preferred ordering:
 - **Emergent Abilities of Large Language Models**. 2022. arXiv preprint. https://doi.org/10.48550/arXiv.2206.07682. Foundational scaling and capability paper.
 - **Agentic AI for Digital Twin**. Alexander Timms, Abigail Langbridge, Antonis Antonopoulos, Antonis Mygiakis, Eleni Voulgari, Fearghal O'Donncha. 2025. AAAI. https://doi.org/10.1609/AAAI.V39I28.35373. Digital-twin systems perspective.
 - **Which Experiences Are Influential for RL Agents? Efficiently Estimating The Influence of Experiences**. Takuya Hiraoka, Guanquan Wang, Takashi Onishi, Yoshimasa Tsuruoka. 2024. Reinforcement Learning Journal. https://arxiv.org/pdf/2405.14629. Adjacent reference for agent experience and memory influence.
+
+## Research Agenda and Open Problems
+
+The recent literature points to a shift from plausible single-turn personas toward validated, uncertainty-aware behavioral models. Promising directions include:
+
+- **Longitudinal twins:** Evaluate whether a twin preserves preferences, memory, and behavioral change across weeks or months, rather than only matching isolated prompts.
+- **Distributional fidelity:** Report calibration, variance, subgroup coverage, and tail behavior alongside average accuracy or hypothesis-test replication.
+- **Causal validity:** Separate observational replay from intervention claims; validate predicted treatment effects against held-out experiments whenever simulations inform decisions.
+- **Grounded personalization:** Compare demographic prompts, consented individual traces, and retrieval-backed memory under explicit privacy, provenance, and deletion controls.
+- **Population composition:** Model populations as calibrated mixtures and measure whether group-level estimates remain stable when subgroup prevalence or context changes.
+- **Human-AI market dynamics:** Study how agent-mediated purchasing, recommendations, and negotiation change demand, fairness, and strategic behavior when both humans and LLM agents participate.
+- **Governance-ready evaluation:** Build audit trails that record model version, prompt, context source, sampling settings, uncertainty, and known failure modes for every simulated finding.
 
 ## How To Contribute
 
